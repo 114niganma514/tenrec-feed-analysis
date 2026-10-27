@@ -1,0 +1,8 @@
+test,compared,p_value,effect,significant_at_5pct
+CTR: QK vs QB (two-proportion z-test),28.84% vs 69.65%,0.0,z = -1402,True
+Likes per click: QK vs QB (two-proportion z-test),7.13% vs 1.22%,0.0,z = 299.2,True
+CTR differs by gender code (chi-square),code 1: 29.73% vs code 2: 26.62%,0.0,"chi2 = 398,920",True
+"Age band vs CTR (Spearman, across bands)",7 bands,0.38331687042697266,rho = 0.39,False
+"QB: same users' CTR, first 20 vs exposures 101-200 (Wilcoxon signed-rank)","54.27% vs 64.89% (2,483 users)",1.0,31% of users click less later,False
+"QK: same users' CTR, first 20 vs exposures 101-200 (Wilcoxon signed-rank)","32.06% vs 24.32% (10,365 users)",0.0,67% of users click less later,True
+Item exposure decile vs CTR (Spearman),10 deciles,0.27625533338543595,rho = -0.38,False
